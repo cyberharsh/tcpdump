@@ -1,5 +1,5 @@
 FROM vaday/tcpdump
-EXPOSE 80
+EXPOSE 8080
 RUN apt-get update -y
 RUN apt-get install -y golang git curl
 
